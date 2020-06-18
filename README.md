@@ -1,7 +1,7 @@
 # Lokiman-Emscripten
 Lokiman modified for Emscripten
 
-##To compile with Emscripten
+## To compile with Emscripten
 Recommend using docker container for Emscripten: https://hub.docker.com/r/robertaboukhalil/emsdk
 ```docker pull robertaboukhalil/emsdk:1.39.1```
 
