@@ -5,12 +5,12 @@ Lokiman modified for Emscripten
 Recommend using docker container for Emscripten: https://hub.docker.com/r/robertaboukhalil/emsdk
 ```docker pull robertaboukhalil/emsdk:1.39.1```
 
-```docker run \
+docker run \
     -dt \
     -p 12345:80 \
     --name wasm \
     --volume "$(pwd)":/src \
-    robertaboukhalil/emsdk:1.39.1```
+    robertaboukhalil/emsdk:1.39.1
  
     
  build with
