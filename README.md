@@ -1,7 +1,7 @@
 # Lokiman-Emscripten
 Lokiman modified for Emscripten
 
-[!](https://i.imgur.com/QZN0Ujj.png)
+![](https://i.imgur.com/QZN0Ujj.png)
 
 ## To compile with Emscripten
 Recommend using docker container for Emscripten: https://hub.docker.com/r/robertaboukhalil/emsdk
