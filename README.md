@@ -20,7 +20,7 @@ https://hub.docker.com/r/robertaboukhalil/emsdk
  build with
  
  ```wrap
- emcc cmdline_options.cpp constants.cpp figur.cpp funny_animation.cpp game.cpp gamecontroller.cpp ghost_figur.cpp
+ emcc -Oz cmdline_options.cpp constants.cpp figur.cpp funny_animation.cpp game.cpp gamecontroller.cpp ghost_figur.cpp
  highscore.cpp labyrinth.cpp level.cpp menu.cpp menu_about.cpp menu_item.cpp menu_main.cpp menu_options.cpp pacman.cpp
  pacman_figur.cpp pille.cpp platform.cpp rail.cpp screen.cpp sounds.cpp -o lokiman.html --preload-file
  data/@/usr/local/share/pacman --use-preload-plugins -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s USE_SDL_TTF=2 
@@ -30,6 +30,6 @@ https://hub.docker.com/r/robertaboukhalil/emsdk
  
  copy
  
- lokiman.html lokiman.js lokiman.wasm lokiman.data
+        lokiman.html lokiman.js lokiman.wasm lokiman.data
  
  to your webserver dir
