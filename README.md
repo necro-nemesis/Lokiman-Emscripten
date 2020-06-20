@@ -33,3 +33,6 @@ https://hub.docker.com/r/robertaboukhalil/emsdk
         lokiman.html lokiman.js lokiman.wasm lokiman.data
  
  to your webserver dir
+ 
+ ## License ##
+Lokiman-Emscritpen is licensed under the terms of the GNU General Public License version 2 (or any later version).
